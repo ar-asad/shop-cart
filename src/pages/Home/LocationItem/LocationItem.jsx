@@ -64,9 +64,9 @@ const LocationItem = () => {
             name: "Bags"
         }
     ]
-    console.log(productList)
+
     return (
-        <div className="py-4">
+        <div className="pt-4 mb-16">
             <div className="inline-block mb-4">
                 <div className="flex bg-amber-400 rounded-full p-2 items-center font-semibold">
                     <GrLocation></GrLocation>
