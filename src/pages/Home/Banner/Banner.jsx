@@ -1,5 +1,5 @@
-import { useGetHotDealsQuery } from "../../../../features/api/products/productsApi";
-import ProductCard from "../../../shared/ProductCard";
+import { useGetHotDealsQuery } from "../../../features/api/products/productsApi";
+import ProductCard from "../../shared/ProductCard";
 
 
 const Banner = () => {
@@ -11,7 +11,7 @@ const Banner = () => {
     }
 
     return (
-        <div className='grid grid-cols-12'>
+        <div className='grid grid-cols-12 mb-16'>
             <div className="col-span-5 flex items-center">
                 <h1 className="text-8xl font-light">We picked some <span className="font-bold text-orange-400">cool things</span> for you!</h1>
             </div>
