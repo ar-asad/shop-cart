@@ -4,6 +4,7 @@ import FurnitureView from "../FurnitureView/FurnitureView";
 import LocationItem from "../LocationItem/LocationItem";
 import SearchProducts from "../SearchProducts/SearchProducts";
 import TodayHotDeals from "../TodayHotDeals/TodayHotDeals";
+import FurnitureDeals from "./FurnitureDeals/FurnitureDeals";
 
 
 
@@ -16,6 +17,7 @@ const Home = () => {
             <TodayHotDeals></TodayHotDeals>
             <SearchProducts></SearchProducts>
             <FurnitureView></FurnitureView>
+            <FurnitureDeals></FurnitureDeals>
         </div>
     );
 };
