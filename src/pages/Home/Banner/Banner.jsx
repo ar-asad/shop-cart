@@ -3,7 +3,7 @@ import ProductCard from "../../shared/ProductCard";
 
 
 const Banner = () => {
-    const { data, isLoading } = useGetHotDealsQuery("hot deals for you");
+    const { data, isLoading } = useGetHotDealsQuery("products?product_type=hot deals for you");
     // console.log(data?.products[0].productData)
 
     if (isLoading) {

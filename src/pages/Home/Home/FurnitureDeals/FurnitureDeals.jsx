@@ -3,7 +3,7 @@ import ProductCard from "../../../shared/ProductCard";
 
 
 const FurnitureDeals = () => {
-    const { data, isLoading } = useGetHotDealsQuery("Deals on furniture");
+    const { data, isLoading } = useGetHotDealsQuery("products?product_type=Deals on furniture");
 
     if (isLoading) {
         return <h2 className="text-center font-semibold text-red-400 w-1/2 mx-auto">Loading...</h2>

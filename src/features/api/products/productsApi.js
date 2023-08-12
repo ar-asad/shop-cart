@@ -5,9 +5,9 @@ const jobApi = apiSlice.injectEndpoints({
     endpoints: (builder) => ({
         getHotDeals: builder.query({
             query: (productString) => ({
-                url: `/products?product_type=${productString}`,
+
+                url: `/${productString}`,
             }),
-            providesTags: ['Jobs'],
         }),
     }),
 });

@@ -9,7 +9,7 @@ const LocationItem = () => {
         },
         {
             id: "2",
-            name: "Today's Deals"
+            name: "Today'sDeals"
         },
         {
             id: "3",
@@ -62,7 +62,7 @@ const LocationItem = () => {
         {
             id: "15",
             name: "Bags"
-        }
+        },
     ]
 
     return (
@@ -73,7 +73,7 @@ const LocationItem = () => {
                     <p className="ms-2">Dhaka-1212</p>
                 </div>
             </div>
-            <ul className="flex gap-5 ">
+            <ul className="flex gap-5 overflow-auto">
                 {
                     productList.map(({ name, id }) =>
                         <li className="list-none text-gray-600" key={id}>{name}</li>

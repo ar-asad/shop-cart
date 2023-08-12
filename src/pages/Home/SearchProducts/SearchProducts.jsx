@@ -3,7 +3,7 @@ import SearchProductCard from "./SearchProductCard";
 
 
 const SearchProducts = () => {
-    const { data, isLoading } = useGetHotDealsQuery("Your searched items");
+    const { data, isLoading } = useGetHotDealsQuery("products?product_type=Your searched items");
 
     if (isLoading) {
         return <h2 className="text-center font-semibold text-red-400 w-1/2 mx-auto">Loading...</h2>

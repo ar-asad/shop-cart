@@ -1,5 +1,3 @@
-import ipad from '../../../assets/images/ipad.jpg';
-import iphone from '../../../assets/images/iphone.jpg';
 
 
 
